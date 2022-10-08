@@ -1,0 +1,5 @@
+,Function,Latency (nanoseconds)
+0,SHA3-256 (C),9000521
+1,SHA3-256 (Python),746765
+2,Polynomial Exponentiation Mod 2,0
+3,Polymnomial Exponentiation Mod 3,0

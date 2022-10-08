@@ -22,4 +22,6 @@ chart = alt.Chart(df).mark_bar().encode(
     # (hashed 1000 times, 1000 times and took the average latency)
 )
 
-chart.save("avg_latency_hash_vs_ntru.png", webdriver="firefox")
+filename = "avg_latency_hash_vs_ntru"
+df.to_csv(f"{filename}.csv")
+chart.save(f"{filename}.png", webdriver="firefox")
